@@ -7,7 +7,7 @@ import {
 import { withBitcodeDisabled } from "./withBitcodeDisabled";
 import { IOSPermissionsProps, withPermissions } from "./withPermissions";
 
-const pkg = { name: "react-native-webrtc", version: "UNVERSIONED" }; //require("react-native-webrtc/package.json");
+const pkg = { name: "@livekit/react-native-webrtc", version: "UNVERSIONED" }; //require("react-native-webrtc/package.json");
 
 const withWebRTC: ConfigPlugin<IOSPermissionsProps | void> = (
   config,
